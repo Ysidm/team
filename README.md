@@ -5,5 +5,5 @@
 4.请按时完成不少于100字的“成长周报”。
 5.请按时参加团队的“技术交流”。
 6.请按时完成团队交给的其他任务。  
-Markdown语法  
-【Markdown在线编辑器】（http://dillinger.io/）
+# Markdown语法  
+[Markdown在线编辑器]（http://dillinger.io/）
