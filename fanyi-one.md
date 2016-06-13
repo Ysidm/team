@@ -9,7 +9,7 @@
   （换言之，除了使用动画和变换，你要在动画和变换这些变化前告诉浏览器）
   
   ```css
-  .element {
+.element {
   will-change: transform;
 }
 .element:hover {
