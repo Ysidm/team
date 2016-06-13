@@ -20,12 +20,12 @@
 ###Example(例子):
 > html
     <section class='message'>
-        Lol, check out this dog: images.example.com/jsK3jkl</section><section class='message'>
-        I had a ham sandwich today. #goodtimes</section><section class='message'>
-        I have political opinions that you need to hear!</section>
+    Lol, check out this dog: images.example.com/jsK3jkl</section><section class='message'>
+    I had a ham sandwich today. #goodtimes</section><section class='message'>
+    I have political opinions that you need to hear!</section>
     CSS
     .message {
-        contain: strict;}
+    contain: strict;}
 
   
   (Michael Scharnagl 最近写了一篇文章：)
@@ -39,6 +39,8 @@ Spec(规范，说明)
   （浏览器将计算每个图像的有效像素密度从指定呈现宽描述符和指定呈现的尺寸属性。它可以选择任何给定的资源根据用户的屏幕的像素密度,缩放级别,可能还有其他因素,如用户的网络环境。）
   
   （这里有一个例子的规范,你给浏览器尽可能使用:）
+    
+    例子
   
   （如果浏览器窗口小于30 em,我会显示图像宽100vw。）
   
