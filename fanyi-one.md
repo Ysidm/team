@@ -7,8 +7,16 @@
   （允许作者提前告知浏览器的默认样式，那他们可能会做出一个元素。它允许对浏览器默认样式的优化如何提前处理因素，在动画实际开始之前，为准备动画所执行的潜在昂贵的工作。）
   
   （换言之，除了使用动画和变换，你要在动画和变换这些变化前告诉浏览器）
->.element { will-change: transform; } 
->.element:hover { transform: rotateY(180deg); }
+  
+  ```css
+  .element {
+  will-change: transform;
+}
+.element:hover {
+  transform: rotateY(180deg);
+}
+  
+  ```
   
   （Sara Soueidan有一篇更深入的文章，我们有一个年鉴参考。）
 #contain
