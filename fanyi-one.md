@@ -17,8 +17,8 @@
   （包含属性允许作者表明一个元素及其内容,尽可能独立于其他文档树。这里允许浏览器在呈现页面时恰当的使用contain获得更强的优化，并允许作者相信，他们的页面不会因为缓存路径的改变而发生变化。）
   
   （换言之，换句话说,如果你知道某些事情和元素及其后代,你应该告诉浏览器它可以优化这些事情。例如……contain:size;—“这确保包含元素可以无需检查它的后代。”）
-Example(例子):
-html
+###Example(例子):
+> html
 > <section class='message'>
 > Lol, check out this dog: images.example.com/jsK3jkl</section><section class='message'>
 >  I had a ham sandwich today. #goodtimes</section><section class='message'>
@@ -26,8 +26,9 @@ html
 CSS
 >.message {
 >  contain: strict;}
-    
-    (Michael Scharnagl 最近写了一篇文章：)
+
+  
+  (Michael Scharnagl 最近写了一篇文章：)
   
   （就像一个内联框架，这个边界建立一个新的布局根,确保DOM改变父文档的子树不会触发回流。）
 #Responsive Images（响应式图片）
@@ -38,7 +39,7 @@ Spec(规范，说明)
   （浏览器将计算每个图像的有效像素密度从指定呈现宽描述符和指定呈现的尺寸属性。它可以选择任何给定的资源根据用户的屏幕的像素密度,缩放级别,可能还有其他因素,如用户的网络环境。）
   
   （这里有一个例子的规范,你给浏览器尽可能使用:）
-><img sizes="(max-width: 30em) 100vw, (max-width: 50em) 50vw, calc(33vw - 100px)" srcset="swing-200.jpg 200w, swing-400.jpg 400w, swing-800.jpg 800w, swing-1600.jpg 1600w" src="swing-400.jpg" alt="Kettlebell Swing" >
+    <img sizes="(max-width: 30em) 100vw, (max-width: 50em) 50vw, calc(33vw - 100px)" srcset="swing-200.jpg 200w, swing-400.jpg 400w, swing-800.jpg 800w, swing-1600.jpg 1600w" src="swing-400.jpg" alt="Kettlebell Swing" >
 Which says...（）
   
   （如果浏览器窗口小于30 em,我会显示图像宽100vw。）
