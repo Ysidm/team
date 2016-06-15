@@ -52,7 +52,8 @@ CSS
 #Responsive Images（响应式图片）
   
   （也许最明显的“你告诉浏览器”场景是响应图像,特别是大小属性。浏览器将计算每个图像的实际像素密度从指定呈现width和指定的size。它可以选择任何给定的资源，根据用户的屏幕的像素密度,缩放级别,可能还有其他因素,如用户的网络环境。）
-Spec(规范，说明)
+  
+[规范，说明](http://w3c.github.io/html/semantics-embedded-content.html#element-attrdef-img-sizes)
   
   （这里有一个例子的规范,你给浏览器尽可能使用:）
   
