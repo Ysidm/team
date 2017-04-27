@@ -20,7 +20,7 @@
   ```
   
   （Sara Soueidan有[一篇更深入的文章](https://dev.opera.com/articles/css-will-change-property/)，我们有[一个年鉴参考](https://css-tricks.com/almanac/properties/w/will-change/)。）
-#contain
+# contain
 [规范，说明](https://drafts.csswg.org/css-containment-3/#contain-property):
   
   >（包含属性允许作者表明一个元素及其内容,尽可能独立于其他文档树。这里允许浏览器在呈现页面时恰当的使用contain获得更强的优化，并允许作者相信，他们的页面不会因为缓存路径的改变而发生变化。）
@@ -49,7 +49,7 @@ CSS
   
   >（就像一个内联框架，这个边界建立一个新的布局根,确保DOM改变父文档的子树不会触发回流。）
 
-#Responsive Images（响应式图片）
+# Responsive Images（响应式图片）
   
   （也许最明显的“你告诉浏览器”场景是响应图像,特别是大小属性。浏览器将计算每个图像的实际像素密度从指定呈现width和指定的size。它可以选择任何给定的资源，根据用户的屏幕的像素密度,缩放级别,可能还有其他因素,如用户的网络环境。）
   
@@ -74,7 +74,7 @@ HTML
   *（否则(如果它更大),我将显示图像宽为(33vw - 100 px)。）
   
   （然后需要匹配你实际做的CSS。希望它是相当准确的,才能实现浏览器屏大小与图片相匹配。）
-#A Brave New World（一个美好的新世界）
+# A Brave New World（一个美好的新世界）
   
   （我提到这些事情不是因为我认为你需要立即开始使用所有这些。如果可以，把焦点更多的放在浏览器的前端性能特征上。）
   
